@@ -7,7 +7,7 @@
 # 开始分析！</br>
 ## IDA搜索字符串大法！
   1. 定位关键字符串</br>![step-2-0-0](http://oo1vemife.bkt.clouddn.com/pic/step2/0.jpg)</br>别急着看这个，往上看发现一个东西</br>"**Your license is activated.**"</br>我们跟过去看一下：</br>
-  	```asm
+  ```asm
 	sub     esp, 310h
 	push    esi
 	mov     esi, ecx
@@ -56,6 +56,6 @@
 	mov     eax, 1
 	add     esp, 310h
 	retn
-	```
+```
 	 
 	
